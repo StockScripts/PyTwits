@@ -5,7 +5,7 @@ import pytwits
 
 def main():
 
-    access_token = '9d581c4e0872b690957c644b0dfd87e46aea2cda'
+    access_token = 'TOKEN'
     stocktwits = pytwits.StockTwits(access_token=access_token)
 
     user = stocktwits.blocks(path='create', id='391833')
